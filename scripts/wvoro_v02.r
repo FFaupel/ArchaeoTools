@@ -19,7 +19,6 @@
 ## Lizenz Skript: GPL (http://www.gnu.de/documents/gpl.en.html)
 ################################################################################
 
-
 # @@ RGEDIT LANDMARK @@: 0. Vorbereitung =======================================
 # 0.1 Variablen setzen ---------------------------------------------------------
 arbverz <- "/home/fon/daten/aktuell/analyse/bw_kulturdist/analyse_2012" 
@@ -173,9 +172,7 @@ dev.off()
 save.image("wvoro2013-2.rws")
 
 
-
-
-time3 <- Sys.time()  # Endzeit
+time3 <- Sys.time()   # Ende der Berechnung
 zi2 <- (time3-time2)  # Dauer der Berechnung
 zi2
 zi
