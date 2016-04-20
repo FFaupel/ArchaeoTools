@@ -1,23 +1,14 @@
-# History files
+# R/RStudio files
 .Rhistory
 .Rapp.history
 .RData
-
-# Example code in package build process
-*-Ex.R
-# RStudio files
 .Rproj.user/
-# produced vignettes
-vignettes/*.html
-vignettes/*.pdf
-.Rproj.user
-packrat/lib*/
-# check https://gist.github.com/octocat/9257657 #
 
-# Packages #
-############
-# it's better to unpack these files and commit the raw source
-# git has its own built in compression methods
+# Rendered documents
+*.html
+*.pdf
+
+# Packages and archives
 *.7z
 *.dmg
 *.gz
@@ -26,12 +17,11 @@ packrat/lib*/
 *.rar
 *.tar
 *.zip
-# Logs and databases #
-######################
+
+# Logs
 *.log
-*.sql
-*.sqlite
-# OS generated files #
+
+# OS generated files
 .DS_Store
 .DS_Store?
 ._*
@@ -39,17 +29,14 @@ packrat/lib*/
 .Trashes
 ehthumbs.db
 Thumbs.db 
-# Compiled source #
-###################
+
+# Compiled source 
 *.com
 *.class
 *.dll
 *.exe
 *.o
 *.so
-=======
+
+# template: https://gist.github.com/octocat/9257657
 .Rproj.user
-.Rhistory
-.RData
-.tmp
-.thumb
